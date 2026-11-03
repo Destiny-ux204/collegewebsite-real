@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="/project/edit/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-freez@7.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="/project/index.html" title="link"><img src="/eduford_img/logo.png" alt="logo"></a>        
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                    <li><a href="/project/index.html">HOME</a></li>
+                    <li><a href="/about.html/about.html">ABOUT</a></li>
+                    <li><a href="/course.html/course.html">COURSE</a></li>
+                    <li><a href="/blog.html/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html/contact.html">CONTACT</a></li>
+                </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+        </section>
+
+        <!-- about us content -->
+         <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the world largest university</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae cumque quaerat eaque, deserunt fuga vel tempora quos vero rerum provident dolorum, obcaecati exercitationem suscipit veritatis voluptate animi voluptatum adipisci sed blanditiis assumenda porro eos voluptatibus repellendus. Doloremque eos aperiam aut reiciendis suscipit ea ab autem, qui dolor eligendi, dolorum quasi.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="/eduford_img/about.jpg" alt="about">
+                </div>
+            </div>
+         </section>
+
+        
+     
+    
+     
+        <!-- Footer -->
+         <section class="footer">
+            <h4>ABOUT US</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut magni voluptate dolor, veniam dignissimos aut.<br> In obcaecati, at sit sunt excepturi neque quae ratione, alias amet est, laudantium numquam velit.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkeldn"></i>
+            </div>
+            <p> Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+
+         </section>
+
+
+
+
+    <!-- ------Javascript for toggle Menu------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right ="-200px";
+        }
+
+
+    </script>
+    
+</body>
+</html>
